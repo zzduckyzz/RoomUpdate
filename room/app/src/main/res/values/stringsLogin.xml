@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringBtnLogin">LOGIN WITH ACCOUNT OF APP</string>
+    <string name="stringQuestion">Do not have account?</string>
+    <string name="stringSignUp">Sign up</string>
+    <string name="stringResetPassword">Nhập Email đăng ký của bạn để đặt lại mật khẩu.</string>
+</resources>

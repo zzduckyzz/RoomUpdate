@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:paddingLeft="35dp"
+            android:paddingTop="20dp"
+            android:paddingRight="35dp"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stringImagesPushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_rim_1">
+
+                <ImageButton
+                    android:id="@+id/btnImg_upLoad_push_room"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:src="@drawable/ic_svg_image_100" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnImg_upLoad_push_room"
+                    android:gravity="center"
+                    android:text="@string/stringUpLoadImagePushRoom"
+                    android:textColor="@color/highlightRoom"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/dotted">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_img_upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/stringUtilitiesPushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="7">
+
+                    <CheckBox
+                        android:id="@+id/chBox_wc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_wc_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/stringWCPushRoom"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <CheckBox
+                        android:id="@+id/chBox_wifi"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_wifi_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/stringWifiPushRoom"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="7">
+
+                    <CheckBox
+                        android:id="@+id/chBox_clock"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_clock_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/stringFreePushRoom"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <CheckBox
+                        android:id="@+id/chBox_bed"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_bed_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/stringBedPushRoom"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="7">
+
+                    <CheckBox
+                        android:id="@+id/chBox_fridge"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_fridge_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/stringFridgePushRoom"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <CheckBox
+                        android:id="@+id/chBox_wardrobe"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_wardrobe_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/stringWardrobePushRoom"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="7">
+
+                    <CheckBox
+                        android:id="@+id/chBox_pet"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_pet_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/stringPetPushRoom"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <CheckBox
+                        android:id="@+id/chBox_window"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_window_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/stringWindowPushRoom"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="7">
+
+                    <CheckBox
+                        android:id="@+id/chBox_parking"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_motobike_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/stringParkingPushRoom"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <CheckBox
+                        android:id="@+id/chBox_washmachine"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_washmachine_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/StringWashmachinePushRoom"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="7">
+
+                    <CheckBox
+                        android:id="@+id/chBox_waterheater"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_waterheater_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/StringWaterheat"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <CheckBox
+                        android:id="@+id/chBox_security"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_security_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/StringSecurityPushRoom"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="7">
+
+                    <CheckBox
+                        android:id="@+id/chBox_arcondition"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@drawable/custom_checkbox_arcondition"
+                        android:button="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_svg_aircondition_24"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/stringAirconditionPushRoom"
+                        android:textColor="@drawable/custom_radio_text_color" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_nextStep3_post_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button_login"
+                android:text="Xác nhận"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringFindRoomAdd">Thêm tìm ở ghép</string>
+    <string name="stringAboutPriceFindRoomAdd">Khoảng giá</string>
+    <string name="stringWantGenderFindRoomAdd">Cần ở với</string>
+    <string name="stringPostFindRoomAdd">Đăng</string>
+    <string name="stringPositionSearchFindRoomAdd">Vị trí tìm kiếm</string>
+    <string name="stringD1PriceFindRoomAdd">Quận 1</string>
+    <string name="stringD2PriceFindRoomAdd">Quận 2</string>
+    <string name="stringD3PriceFindRoomAdd">Quận 3</string>
+    <string name="stringD4PriceFindRoomAdd">Quận 4</string>
+    <string name="stringD5PriceFindRoomAdd">Quận 5</string>
+    <string name="stringD6PriceFindRoomAdd">Quận 6</string>
+    <string name="stringD7PriceFindRoomAdd">Quận 7</string>
+    <string name="stringD8PriceFindRoomAdd">Quận 8</string>
+    <string name="stringD9PriceFindRoomAdd">Quận 9</string>
+    <string name="stringD10PriceFindRoomAdd">Quận 10</string>
+    <string name="stringD11PriceFindRoomAdd">Quận 11</string>
+    <string name="stringD12PriceFindRoomAdd">Quận 12</string>
+    <string name="stringDThuDucPriceFindRoomAdd">Quận Thủ Đức</string>
+    <string name="stringDTanBinhPriceFindRoomAdd">Quận Tân Bình</string>
+    <string name="stringDGovapPriceFindRoomAdd">Quận Gò Vấp</string>
+    <string name="stringDTanPhuPriceFindRoomAdd">Quận Tân Phú</string>
+    <string name="stringDPhuNhuanPriceFindRoomAdd">Quận Phú Nhuận</string>
+    <string name="stringBinhThanhPriceFindRoomAdd">Quận Bình Thạnh</string>
+    <string name="stringBinhTânPriceFindRoomAdd">Quận Bình Tân</string>
+</resources>

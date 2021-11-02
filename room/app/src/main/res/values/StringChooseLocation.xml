@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="StringChooseLocationDistrict">Quận: </string>
+    <string name="StringChooseLocationStreet">Đường: </string>
+    <string name="StringChooseLocationWard">Phường: </string>
+    <string name="StringChooseLocationNo">Số nhà: </string>
+</resources>

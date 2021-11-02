@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="StringMainMenuHome">Trang chủ</string>
+    <string name="StringMainMenuAccount">Tài khoản</string>
+    <string name="StringMainMenuFind">Ở ghép</string>
+    <string name="StringMainMenuPostRoom">Đăng phòng</string>
+</resources>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/cursor_edittext.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_button_call_room_detail.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_button_check_map_detail.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_button_delete_room.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_button_login.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_button_signup.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_button_submit.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_button_verify.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_edit_text_login.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_radio_text_color.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_rim.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_spinner_rim.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/ic_flash.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/ic_svg_add_blu_100.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/ic_svg_comment_100.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/ic_svg_comment_user_100.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/ic_svg_delete_user_100.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/ic_svg_home_100.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/ic_svg_plus_24.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/ic_svg_setting_user_100.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/ic_svg_subtract_24.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/ic_svg_view_user_100.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/ic_svg_views_48.xml" value="0.215625" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_find_room_add_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_find_room_detail_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_load_image_screen.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_location_search.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_main.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_main__menu.xml" value="0.16" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_personal_page_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_pop_up_comment.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_pop_up_views.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_reported_room_detail_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_reset_password_by_email.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_room_detail.xml" value="0.5" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_room_management_user_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_search_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/change_state_room_dialog.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/comment_and_rate_main_room_detail.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/comment_and_rate_step_1_room_detail_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/comment_and_rate_step_2_room_detail_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/comment_and_rate_step_3_room_detail_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/comment_element_grid_room_detail_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/convenient_chbox_element_recyclerview.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/delete_dialog.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/dialog_show_image_detail_room.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/element_host_list_view.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/element_list_find_room_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/element_location_recycler_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/element_report_list_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/element_room_wait_for_approval_list_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/element_view_recycler_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/favorite_rooms_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/find_room_add_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/find_room_filter_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/find_room_mine_view.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/find_room_view.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/fragment_account_view.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/fragment_find_room_view.xml" value="0.16" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/fragment_fragment_convenient.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/fragment_fragment_number_people.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/fragment_fragment_price.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/fragment_fragment_type_room.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/grid_element_find_room_detail.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/item_room_admin_user.xml" value="0.67" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/item_room_user.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/load_image_element_recycler_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/my_room_outside_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/post_room_main_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/post_room_step_1_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/post_room_step_2_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/post_room_step_3_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/post_room_step_4_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/rate_star_grid_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/report_room_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/rom_element_grid_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/room_element_grid_view.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/room_element_list_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/room_price_element_grid_room_detail_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/row_element_grid_view_location.xml" value="0.16" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/search_element_list_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/search_filter_element_recyclerview.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/suggest_element_list_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/toolbar.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/upload_image_element_recycler_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/utility_element_grid_room_detail_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/verified_rooms_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/verify_dialog.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/menu/find_room_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/menu/main_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/DucPham/Desktop/DesignAppRoot/app/src/main/res/drawable/button_background_blue.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/DucPham/Desktop/DesignAppRoot/app/src/main/res/drawable/custom_button_call_room_detail.xml" value="0.225" />
+        <entry key="..\:/Users/DucPham/Desktop/DesignAppRoot/app/src/main/res/drawable/custom_profile.xml" value="0.225" />
+        <entry key="..\:/Users/DucPham/Desktop/DesignAppRoot/app/src/main/res/drawable/ic_add_img.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/DucPham/Desktop/DesignAppRoot/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/DucPham/Desktop/DesignAppRoot/app/src/main/res/layout/activity_find_room_add_view.xml" value="0.12952898550724637" />
+        <entry key="..\:/Users/DucPham/Desktop/DesignAppRoot/app/src/main/res/layout/activity_find_room_detail_view.xml" value="0.12952898550724637" />
+        <entry key="..\:/Users/DucPham/Desktop/DesignAppRoot/app/src/main/res/layout/activity_login.xml" value="0.14" />
+        <entry key="..\:/Users/DucPham/Desktop/DesignAppRoot/app/src/main/res/layout/activity_login1.xml" value="0.25" />
+        <entry key="..\:/Users/DucPham/Desktop/DesignAppRoot/app/src/main/res/layout/activity_reset_password_by_email.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/DucPham/Desktop/DesignAppRoot/app/src/main/res/layout/ic_add_img.xml" value="0.11730072463768115" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/drawable/ic_svg_image_100.xml" value="0.36512820512820515" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/account_view.xml" value="0.33" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.1" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_find_room_add_view.xml" value="0.17249240121580547" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_find_room_detail_view.xml" value="0.17249240121580547" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_load_image_screen.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_location_search.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_main.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_main__menu.xml" value="0.33" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_personal_page_view.xml" value="0.33" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_pop_up_comment.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_pop_up_views.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_popup_choose_location.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_reported_room_detail_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_reset_password_by_email.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_room_detail.xml" value="0.1" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_room_management_user_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/activity_search_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/admin_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/change_state_room_dialog.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/comment_and_rate_main_room_detail.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/comment_and_rate_step_1_room_detail_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/comment_and_rate_step_2_room_detail_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/comment_and_rate_step_3_room_detail_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/comment_element_grid_room_detail_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/convenient_chbox_element_recyclerview.xml" value="0.1" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/delete_dialog.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/dialog_show_image_detail_room.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/direct_map_room_detail.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/element_host_list_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/element_list_find_room_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/element_location_recycler_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/element_report_list_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/element_room_wait_for_approval_list_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/element_view_recycler_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/favorite_rooms_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/find_room_add_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/find_room_detail_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/find_room_filter_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/find_room_mine_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/find_room_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/fragment_account_view.xml" value="0.1" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/fragment_blank_fragment11.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/fragment_find_room_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/fragment_fragment_convenient.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/fragment_fragment_number_people.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/fragment_fragment_price.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/fragment_fragment_type_room.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/fragment_search_map_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/grid_element_find_room_detail.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/item_room_admin_user.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/item_room_user.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/load_image_element_recycler_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/login_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/my_room_outside_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/personal_page_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/post_room_main_view.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/post_room_step_1_view.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/post_room_step_2_view.xml" value="0.1" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/post_room_step_3_view.xml" value="0.1" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/post_room_step_4_view.xml" value="0.1" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/rate_star_grid_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/report_room_dialog.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/reported_room_detail_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/reset_password_by_email.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/rom_element_grid_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/room_admin_user_list_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/room_detail_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/room_element_grid_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/room_element_list_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/room_management_user_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/room_price_element_grid_room_detail_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/room_user_list_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/row_element_grid_view_location.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/search_element_list_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/search_filter_element_recyclerview.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/signup_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/suggest_element_list_view.xml" value="0.33" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/toolbar.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/upload_image_element_recycler_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/utility_element_grid_room_detail_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/verified_rooms_view.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/layout/verify_dialog.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/menu/find_room_menu.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/menu/main_menu.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/menu/post_room_menu.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/menu/room_detail_menu.xml" value="0.3546875" />
+        <entry key="..\:/Work/Project/Android/ProjectAndroid_G8/DesignAppRoot/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.37083333333333335" />
+        <entry key="..\:/android-frelancer/DesignAppRoot/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.14739583333333334" />
+        <entry key="..\:/android-frelancer/DesignAppRoot/app/src/main/res/layout/activity_find_room_add_view.xml" value="0.152" />
+        <entry key="..\:/android-frelancer/DesignAppRoot/app/src/main/res/layout/activity_room_detail.xml" value="0.12318840579710146" />
+        <entry key="..\:/android-frelancer/DesignAppRoot/app/src/main/res/layout/element_location_recycler_view.xml" value="0.14739583333333334" />
+        <entry key="..\:/android-frelancer/DesignAppRoot/app/src/main/res/layout/post_room_step_1_view.xml" value="0.152" />
+        <entry key="..\:/android-frelancer/DesignAppRoot/app/src/main/res/layout/post_room_step_2_view.xml" value="0.21510416666666668" />
+        <entry key="..\:/android-frelancer/DesignAppRoot/app/src/main/res/layout/report_room_dialog.xml" value="0.14739583333333334" />
+        <entry key="..\:/android-frelancer/DesignAppRoot/app/src/main/res/layout/toolbar.xml" value="0.14739583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="14">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="3" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="7" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="14">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="6" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="10" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="lombok.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringFindRoomDetail">Chi tiết tìm kiếm ở ghép</string>
+    <string name="stringAboutPriceFindRoomDetail">Mức giá</string>
+    <string name="stringLocationSearchFindRoomDetail">Vị trí tìm kiếm</string>
+    <string name="stringWantGenderFindRoomDetail">Giới tính cần tìm</string>
+    <string name="stringConvenientsFindRoomDetail">Tiện ích</string>
+    <string name="stringContactFindRoomDetail">Liên hệ</string>
+</resources>

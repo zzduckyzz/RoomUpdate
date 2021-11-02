@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringTitlePersonal">Trang cá nhân</string>
+    <string name="stringNamePersonal">Tên</string>
+    <string name="stringPhonePersonal">Số điện thoại</string>
+    <string name="stringGenderPersonal">Giới tính</string>
+</resources>

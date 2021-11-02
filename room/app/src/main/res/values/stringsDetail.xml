@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringHeader">Chi tiết phòng</string>
+    <string name="stringName">Phòng cho thuê Trần kế xương, Quận Phú Nhuận</string>
+    <string name="stringPrice">GIÁ PHÒNG</string>
+    <string name="stringStatus">CÒN PHÒNG</string>
+    <string name="stringArea">DIỆN TÍCH</string>
+    <string name="stringDeposit">ĐẶT CỌC</string>
+    <string name="stringNote">Lưu ý</string>
+    <string name="stringUtilities">Tiện ích</string>
+    <string name="stringQuantity">SỐ LƯỢNG</string>
+    <string name="stringSeeMore">Xem thêm</string>
+    <string name="stringCollapse">Thu gọn</string>
+    <string name="stringExpand">Mở rộng</string>
+    <string name="stringAdress">Địa chỉ</string>
+    <string name="stringDetail">Chi tiết</string>
+    <string name="stringCallBookRoom">Gọi đặt phòng</string>
+    <string name="stringPostComment">Viết bình luận</string>
+    <string name="stringPost">Đăng</string>
+    <string name="stringViewAll">Xem tất cả</string>
+    <string name="stringCheckMap">Check map</string>
+    <string name="stringSameCriteria">Cùng tiêu chí</string>
+    <string name="stringLike">Thích</string>
+    <string name="stringEvaluate">Đánh giá</string>
+    <string name="stringRateGreat">Tuyệt vời</string>
+    <string name="stringRatePrettyGood">Khá tốt</string>
+    <string name="stringRateMedium">Trung bình</string>
+    <string name="stringRateBad">Quá tệ</string>
+    <string name="stringCramped">Chật</string>
+    <string name="stringMedium">Ổn</string>
+    <string name="stringSpacious">Rộng</string>
+    <string name="stringComment">Bình luận:</string>
+    <string name="stringNoteComment">Bình luận trên 100 từ, đúng chính tả, ngôn từ văn hóa, không spam, trên tiêu chí góp ý</string>
+    <string name="stringNoteTitle">Tiêu đề bình luận (Bắt buộc)</string>
+    <string name="stringDirect">Chỉ đường</string>
+</resources>

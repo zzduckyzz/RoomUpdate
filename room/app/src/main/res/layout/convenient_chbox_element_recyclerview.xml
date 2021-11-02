@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/chBox_element"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/custom_checkbox_arcondition"
+        android:button="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_svg_clock_24"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="@string/stringFreePushRoom"
+        android:textColor="@drawable/custom_radio_text_color" />
+</LinearLayout>

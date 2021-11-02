@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/custom_vertical_line"
+                android:paddingBottom="10dp">
+
+                <ImageButton
+                    android:id="@+id/btnImg_cancel_personal_page"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/stringTitlePersonal"
+                    android:textSize="10pt"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/chBox_edit_personal_page"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/ic_svg_edit_24"
+                    android:button="@android:color/transparent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/custom_circle_avatar_personal_page">
+
+                <com.example.designapptest.domain.ImageConverter
+                    android:id="@+id/img_avt_personal_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_change_avt_personal_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_avt_personal_page"
+                android:gravity="center"
+                android:textColor="@color/highlightRoom"
+                android:textSize="10pt" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stringNamePersonal" />
+
+                <EditText
+                    android:id="@+id/edt_name_personal_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/custom_spinner"
+                    android:enabled="false" />
+
+                <TextView
+                    android:id="@+id/tv_gender_personal_page"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_name_personal_page"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/stringGenderPersonal" />
+
+                <Spinner
+                    android:id="@+id/spn_gender_personal_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/tv_gender_personal_page"
+                    android:background="@drawable/custom_spinner"
+                    android:enabled="false" />
+
+                <TextView
+                    android:id="@+id/tv_phone_personal_page"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spn_gender_personal_page"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/stringPhonePersonal" />
+
+                <EditText
+                    android:id="@+id/edt_phone_personal_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_phone_personal_page"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_spinner"
+                    android:enabled="false" />
+
+                <TextView
+                    android:id="@+id/tv_password_personal_page"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_phone_personal_page"
+                    android:layout_marginTop="25dp"
+                    android:clickable="true"
+                    android:onClick="ChangePass"
+                    android:textColor="@color/colorRed"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edt_old_password_personal_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_password_personal_page"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/custom_spinner"
+                    android:hint="Nhập mật khẩu cũ"
+                    android:inputType="textPassword"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:id="@+id/edt_new_password_personal_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_old_password_personal_page"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/custom_spinner"
+                    android:hint="Nhập mật khẩu mới"
+                    android:inputType="textPassword"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:id="@+id/edt_retype_new_password_personal_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_new_password_personal_page"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/custom_spinner"
+                    android:hint="Xác nhận mật khẩu mới"
+                    android:inputType="textPassword"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_change_password_personal_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_retype_new_password_personal_page"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="90dp"
+                    android:background="@drawable/custom_button_signup"
+                    android:text="Lưu mật khẩu"
+                    android:textColor="@color/colorWhile"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

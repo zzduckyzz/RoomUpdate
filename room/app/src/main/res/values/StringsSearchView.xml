@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Cancel">Hủy</string>
+    <string name="ward">Quận</string>
+    <string name="HCM">HCM</string>
+    <string name="convenientSearchView">Tiện ích</string>
+    <string name="priceSearchView">Giá</string>
+    <string name="typeRommSearchView">Loại phòng</string>
+    <string name="numberPeopleSearchView">Số người</string>
+    <string name="submit">Áp dụng</string>
+    <string name="numberSearchView">Số người</string>
+    <string name="genderSearchView">Giới tính</string>
+    <string name="allType">Tất cả</string>
+</resources>

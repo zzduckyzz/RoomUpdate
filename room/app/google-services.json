@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "978811374446",
+    "firebase_url": "https://ghostproject-10209-default-rtdb.firebaseio.com",
+    "project_id": "ghostproject-10209",
+    "storage_bucket": "ghostproject-10209.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978811374446:android:639537c133052824e40f7f",
+        "android_client_info": {
+          "package_name": "com.example.designapptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978811374446-u841v7vdc4gb0mn4fjpsfvqh7igr4qm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq0RBaVfJOuAhx183oIWNGO_g3sKQZ9E8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978811374446-u841v7vdc4gb0mn4fjpsfvqh7igr4qm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

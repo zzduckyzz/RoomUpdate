@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <RelativeLayout
+        android:id="@+id/rLT_image"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:padding="5dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img_location"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitXY"
+            app:riv_corner_radius="5dip"
+            app:riv_oval="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_location"/>
+
+        <TextView
+            android:id="@+id/txt_name_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Bình Thạnh"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_room_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="650 phòng"
+            android:textColor="#FFFF00"
+            android:textSize="12dp" />
+    </RelativeLayout>
+</LinearLayout>
+

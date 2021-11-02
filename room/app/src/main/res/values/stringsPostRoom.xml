@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringTitlePushRoom">Đăng phòng của bạn</string>
+    <string name="stringLocationPushRoom">Vị trí</string>
+    <string name="stringInformationPushRoom">Thông tin</string>
+    <string name="stringUtilityPushRoom">Tiện ích</string>
+    <string name="stringConfirmPushRoom">Xác nhận</string>
+    <string name="stringCityPushRoom">Thành phố</string>
+    <string name="stringDistrictPushRoom">Quận</string>
+    <string name="stringWardPushRoom">Phường</string>
+    <string name="stringStreetPushRoom">Đường</string>
+    <string name="stringNoPushRoom">Số nhà</string>
+    <string name="stringExampleStreetPushRoom">Ví dụ: Nguyễn Văn Cừ</string>
+    <string name="stringExampleNoPushRoom">Ví dụ: 127/16</string>
+    <string name="stringNameButtonNextPushRoom">Xác nhận ></string>
+    <string name="stringTypePushRoom">Loại phòng</string>
+    <string name="stringType1PushRoom">Trọ</string>
+    <string name="stringType2PushRoom">Ký túc xá</string>
+    <string name="stringType3PushRoom">Chung cư</string>
+    <string name="stringType4PushRoom">Nhà nguyên căn</string>
+    <string name="stringNumberPushRoom">Số người</string>
+    <string name="stringAreaPushRoom">Chiều dài phòng (m)</string>
+    <string name="stringPricePushRoom">Giá phòng(triệu)</string>
+    <string name="stringElectricPushRoom">Tiền điện (nghìn đ/kg)</string>
+    <string name="stringWaterPushRoom">Tiền nước (nghìn đ/m3)</string>
+    <string name="stringInternetPushRoom">Internet (nghìn đ/tháng)</string>
+    <string name="stringFreePushRoom">Tự do</string>
+    <string name="stringParkCarPushRoom">Car park</string>
+    <string name="stringNumberHelpPushRoom">Số người ở tối đa</string>
+    <string name="stringAreaHelpPushRoom">(m)</string>
+    <string name="stringPriceHelpPushRoom">Nhập giá</string>
+    <string name="stringUpLoadImagePushRoom">Chọn hình từ thư viện của bạn</string>
+    <string name="stringTakePicturePushRoom">Chụp hình</string>
+    <string name="stringImagesPushRoom">Hình ảnh</string>
+    <string name="stringUtilitiesPushRoom">Tiện ích</string>
+    <string name="stringWCPushRoom">WC riêng</string>
+    <string name="stringWifiPushRoom">Wifi</string>
+    <string name="stringBedPushRoom">Giường</string>
+    <string name="stringFridgePushRoom">Tủ lạnh</string>
+    <string name="stringWardrobePushRoom">Tủ quần áo</string>
+    <string name="stringPetPushRoom">Thú cưng</string>
+    <string name="stringWindowPushRoom">Cửa sổ</string>
+    <string name="stringConfirmInfPushRoom">Xác nhận thông tin</string>
+    <string name="stringPhonePushRoom">Your phone</string>
+    <string name="stringEnterPhonePushRoom">Enter your phone</string>
+    <string name="stringTitleConfirmPushRoom">Tên phòng trọ</string>
+    <string name="stringTitleHelpPushRoom">Nhập vào tên phòng trọ</string>
+    <string name="stringDescribePushRoom">Mô tả ngắn</string>
+    <string name="stringDescribeConfirmPushRoom">Nhập vào mô tả</string>
+    <string name="stringOpenTimePushRoom">Open time</string>
+    <string name="stringCloseTimePushRoom">Closed time</string>
+    <string name="stringPostPushRoom">Đăng phòng</string>
+    <string name="stringParkingPushRoom">Chỗ để xe</string>
+    <string name="StringWashmachinePushRoom">Máy giặt</string>
+    <string name="StringWaterheat">Nước nóng</string>
+    <string name="StringSecurityPushRoom">An ninh</string>
+    <string name="stringWidthHelpPushRoom">Chiều rộng phòng(m)</string>
+    <string name="stringParking2PushRoom">Tiền giữ xe (nghìn đ/tháng)</string>
+    <string name="stringFreePricePushRoom">Miễn phí</string>
+    <string name="stringGendertitle">Phòng dành cho</string>
+    <string name="stringMalePushRoom">Nam</string>
+    <string name="stringFemalePushRoom">Nữ</string>
+    <string name="stringAirconditionPushRoom">Máy lạnh</string>
+    <string name="stringChooseLocationPushRoom">Chọn địa chỉ của bạn</string>
+
+
+</resources>

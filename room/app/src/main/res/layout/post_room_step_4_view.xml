@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="35dp"
+            android:paddingTop="20dp"
+            android:paddingRight="35dp"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stringTitleConfirmPushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_name_push_room"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_spinner_rim"
+                android:gravity="center"
+                android:hint="@string/stringTitleHelpPushRoom"
+                android:textColor="#666666"
+                android:textCursorDrawable="@drawable/cursor_edittext"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/stringDescribePushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_describe_push_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_spinner_rim"
+                android:gravity="center"
+                android:hint="@string/stringDescribeConfirmPushRoom"
+                android:inputType="textMultiLine"
+                android:lines="10"
+                android:maxLines="10"
+                android:minLines="4"
+                android:scrollbars="vertical"
+                android:textColor="#666666"
+                android:textCursorDrawable="@drawable/cursor_edittext"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_nextStep4_post_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_button_login"
+                android:text="@string/stringPostPushRoom"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewRoomWaitForApprovalList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="0dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_verified"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/img_icon_4" />
+
+                <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/img_room"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="5dip"
+                    app:riv_oval="false" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_timeCreated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:text="10/22/2018 "
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="right"
+                    android:text="KÍ TÚC XÁ"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txt_quantityMember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toRightOf="@+id/txt_type"
+                    android:text="8"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/img_gender"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@+id/txt_quantityMember"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_svg_male_100" />
+
+                <ImageView
+                    android:id="@+id/img_view"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_toLeftOf="@+id/txt_quantityViews"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_svg_views_48" />
+
+                <TextView
+                    android:id="@+id/txt_quantityViews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/img_comment"
+                    android:text="125"
+                    android:textColor="@color/highlightRoom"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/img_comment"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_toLeftOf="@+id/txt_quantityComment"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_svg_comment_100" />
+
+                <TextView
+                    android:id="@+id/txt_quantityComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="5dp"
+                    android:text="329"
+                    android:textColor="@color/highlightRoom"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="3dp"
+                android:maxLines="2"
+                android:text="Cho thuê phòng trọ giá rẻ"
+                android:textColor="@color/colorGrayType1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:text="2.5 triệu / phòng"
+                    android:textColor="#E91E63"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txt_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="5m x 4m"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="5dp"
+                android:maxLines="2"
+                android:text="127 An Dương Vương, Bình Tân, TP Hồ Chí Minh"
+                android:textColor="#666666"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_verifi"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/custom_button_verify"
+                android:text="duyệt"
+                android:textColor="@color/colorWhile"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

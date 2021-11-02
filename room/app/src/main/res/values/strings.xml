@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Find Room</string>
+    <string name="facebook_app_id">376159746306517</string>
+    <string name="fb_login_protocol_scheme">fb376159746306517</string>
+    <string name="xong">Đã xong</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.designapptest">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.popup.PopUpActivity"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity
+            android:name=".view.popup.PopUpCommentActivity"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity android:name=".view.main.MainMenuActivity" />
+
+        <meta-data
+            android:name="com.here.android.maps.appid"
+            android:value="OnLd2Tn4jMkFhbXYvVm2" />
+        <meta-data
+            android:name="com.here.android.maps.apptoken"
+            android:value="Gxv3RlV6iyGmoFriTniE5A" />
+        <meta-data
+            android:name="com.here.android.maps.license.key"
+            android:value="AGRy8MKqkLOaYW/ctM/O6hoe4fJnROU/gCrEBOIcrHE/ZCLKwGZdaVwB8pfZjY92qZYna+na+SdGstZvNYT1yq/pORWDG9TmCSz8Tg8XPTKNpkUzJNiYKYerLP8z2pKdmvJQN1jidBYNaN+vTJLL8/nPfqeGZofmqbT9j3qA0jJZogFoUfZ1YoEmDKg7U5D6ShPCBACpvJgc1RUNnkCqipBSQm1DalAYhvD2i4W2s+AQDc8y5sP9EuPtpTrSQgFhHZnAwFcsMYB4O940iSCidfTdm1cOs0h8OgDKq00ZL/0fDlmc8JK+EvTYH4epILRbKL2uiG9b75+QH1N/afdQeUF16uTphrefdQ2c1VOufpps5Ko1Fg1cIIjaJOlHYNCzmtuGSXPD7ZsjvVjRZC1i6NFs532ASC3F5PN9JgKM7T5tVz9eIyhJnHufsZr9qJW739kVqral0q8nwik+SCIkqt4FO39WfaLhBjuMFMMFHuBbEYoemBOjONVLNN0e/hVhpGN/MSkSVN3d+4/NgtkLGDR5SD1a2XIb7z8JuHaW7qg/mexsAeDLYjoU8+ILBJIJ0N1blSxPaNNdyvDCpp3Q4vtGkDXO/c384Lha+A5mAQyC747Ue3z9X/ZgXVIYj4iPvFpZJdUXC4+oZeHOpNm2ING234nQ8PxkOHCyuR1bMF8=" />
+        <meta-data
+            android:name="INTENT_NAME"
+            android:value="com.example.designapptest" />
+
+
+
+        <activity
+            android:name=".view.searchandmap.LocationSearchActivity"
+            android:noHistory="true" />
+        <activity android:name=".view.searchandmap.SearchViewActivity" />
+        <activity android:name=".view.room.LoadImageScreenActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!-- End thêm meta data cho google map -->
+        <activity android:name=".view.commentandrate.CommentAndRateMainActivity" />
+        <activity android:name=".view.room.RoomManageActivity" />
+        <activity android:name=".view.room.DetailRoomActivity" />
+        <activity android:name=".view.room.FavoriteRoomsActivity" />
+        <activity android:name=".view.room.VerifiedRoomsViewActivity" />
+        <activity android:name=".view.room.PostRoomActivity" />
+        <activity android:name=".view.postroom.PostRoomAdapterUpdateActivity" />
+
+        <activity
+            android:name=".view.login.LoginActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme1.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.register.RegisterActivity"
+            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity android:name=".view.room.FindRoomAddActivity" />
+        <activity android:name=".view.room.FindRoomDetailActivity" />
+        <activity android:name=".view.room.FindRoomFilterActivity" />
+        <activity android:name=".view.room.FindRoomMineActivity" />
+        <activity android:name=".view.account.PersonalActivity" />
+        <activity android:name=".view.account.ResetPasswordByEmailActivity" />
+        <activity android:name=".view.admin.AdminViewActivity" />
+        <activity android:name=".view.admin.AdminRoomsActivity" />
+        <activity android:name=".view.admin.AdminHostsActivity" />
+        <activity android:name=".view.admin.AdminHostRoomsActivity" />
+        <activity android:name=".view.admin.AdminRoomsWaitForApprovalActivity" />
+        <activity android:name=".view.admin.AdminReportRoomActivity" />
+        <activity android:name=".view.admin.AdminReportRoomDetailActivity" />
+        <activity android:name=".view.main.FindRoomMine"></activity>
+        <activity android:name=".view.room.FindRoomAdd"></activity>
+        <activity android:name=".view.room.FindRoomFilter"></activity>
+    </application>
+
+</manifest>

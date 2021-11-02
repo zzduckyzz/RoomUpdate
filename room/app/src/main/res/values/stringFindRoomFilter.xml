@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringFindRoomFilter">Bộ lộc tìm ở ghép</string>
+    <string name="stringAboutPriceFindRoomFilter">Khoảng giá</string>
+    <string name="stringGenderFindRoomFilter">Giới tính</string>
+    <string name="stringMaleFindRoomFilter">Nam</string>
+    <string name="stringFeMaleFindRoomFilter">Nữ</string>
+    <string name="stringAllFindRoomFilter">Tất cả</string>
+    <string name="stringAplyFindRoomFilter">Áp dụng</string>
+    <string name="stringPositionSearchFindRoomFilter">Vị trí tìm kiếm</string>
+    <string name="stringD1PriceFindRoomFilter">Quận 1</string>
+    <string name="stringD2PriceFindRoomFilter">Quận 2</string>
+    <string name="stringD3PriceFindRoomFilter">Quận 3</string>
+    <string name="stringD4PriceFindRoomFilter">Quận 4</string>
+    <string name="stringD5PriceFindRoomFilter">Quận 5</string>
+    <string name="stringD6PriceFindRoomFilter">Quận 6</string>
+    <string name="stringD7PriceFindRoomFilter">Quận 7</string>
+    <string name="stringD8PriceFindRoomFilter">Quận 8</string>
+    <string name="stringD9PriceFindRoomFilter">Quận 9</string>
+    <string name="stringD10PriceFindRoomFilter">Quận 10</string>
+    <string name="stringD11PriceFindRoomFilter">Quận 11</string>
+    <string name="stringD12PriceFindRoomFilter">Quận 12</string>
+    <string name="stringDThuDucPriceFindRoomFilter">Quận Thủ Đức</string>
+    <string name="stringDTanBinhPriceFindRoomFilter">Quận Tân Bình</string>
+    <string name="stringDGovapPriceFindRoomFilter">Quận Gò Vấp</string>
+    <string name="stringDTanPhuPriceFindRoomFilter">Quận Tân Phú</string>
+    <string name="stringDPhuNhuanPriceFindRoomFilter">Quận Phú Nhuận</string>
+    <string name="stringBinhThanhPriceFindRoomFilter">Quận Bình Thạnh</string>
+    <string name="stringBinhTânPriceFindRoomFilter">Quận Bình Tân</string>
+</resources>

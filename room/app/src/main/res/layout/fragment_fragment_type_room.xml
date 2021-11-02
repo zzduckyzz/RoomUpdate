@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".view.room.FragmentTypeRoom">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <RadioButton
+            android:id="@+id/rBtn_type_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorGray"
+            android:text="@string/allType" />
+
+        <RadioButton
+            android:id="@+id/rBtn_type1_push_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorGray"
+            android:text="@string/stringType1PushRoom" />
+
+        <RadioButton
+            android:id="@+id/rBtn_type2_push_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorGray"
+            android:text="@string/stringType2PushRoom" />
+
+        <RadioButton
+            android:id="@+id/rBtn_type3_push_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorGray"
+            android:text="@string/stringType3PushRoom" />
+
+        <RadioButton
+            android:id="@+id/rBtn_type4_push_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorGray"
+            android:text="@string/stringType4PushRoom" />
+    </RadioGroup>
+
+</FrameLayout>

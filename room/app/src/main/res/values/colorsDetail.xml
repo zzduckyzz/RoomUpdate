@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorRateGreat">#00f</color>
+    <color name="colorRatePrettyGood">#0f0</color>
+    <color name="colorRateMedium">#666</color>
+    <color name="colorRateBad">#f00</color>
+    <color name="colorSpaceVer">#ddd</color>
+    <color name="colorResultTop">#eff7ff</color>
+    <color name="colorGray">#666666</color>
+    <color name="colorTransParrent">#801A1010</color>
+    <color name="colorWhile100">#00FFFFFF</color>
+</resources>

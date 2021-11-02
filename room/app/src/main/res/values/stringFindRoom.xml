@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringFindRoom">Tìm kiếm ở ghép</string>
+    <string name="stringAboutPrice">Mức giá</string>
+    <string name="stringLocationSearch">Vị trí tìm kiếm</string>
+    <string name="stringResultReturn">kết quả</string>
+</resources>

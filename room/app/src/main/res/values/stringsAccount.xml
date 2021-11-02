@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringTitleAccount">Tài khoản</string>
+    <string name="stringButtonEditInfoAccount">Chỉnh sửa trang cá nhân</string>
+</resources>

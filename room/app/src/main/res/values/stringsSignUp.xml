@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stringRequestSignUp">Điền thông tin của bạn để đăng ký</string>
+    <string name="stringEmailSignUp">Email</string>
+    <string name="stringPassSignUp">Mật khẩu</string>
+    <string name="stringRetypePassSignUp">Nhập lại mật khẩu</string>
+    <string name="stringNameSignUp">Tên</string>
+    <string name="stringAddressSignUp">Địa chỉ</string>
+    <string name="stringPhoneSignUp">Số điện thoại</string>
+    <string name="stringBtnSigUp">Đăng ký</string>
+    <string name="stringGenderSignUp">Giới tính</string>
+    <string name="stringUserType">Loại</string>
+    <string name="stringGenderMaleSignUp">Nam</string>
+    <string name="stringGenderFeMaleSignUp">Nữ</string>
+</resources>

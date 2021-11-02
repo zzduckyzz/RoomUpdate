@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:paddingLeft="35dp"
+            android:paddingTop="20dp"
+            android:paddingRight="35dp"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stringTypePushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <RadioButton
+                    android:id="@+id/rBtn_type1_push_room"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/highlightRoom"
+                    android:checked="true"
+                    android:text="@string/stringType1PushRoom"
+                    android:textColor="@drawable/custom_radio_text_color" />
+
+                <RadioButton
+                    android:id="@+id/rBtn_type2_push_room"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/highlightRoom"
+                    android:text="@string/stringType2PushRoom"
+                    android:textColor="@drawable/custom_radio_text_color" />
+
+                <RadioButton
+                    android:id="@+id/rBtn_type3_push_room"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/highlightRoom"
+                    android:text="@string/stringType3PushRoom"
+                    android:textColor="@drawable/custom_radio_text_color" />
+
+                <RadioButton
+                    android:id="@+id/rBtn_type4_push_room"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/highlightRoom"
+                    android:text="@string/stringType4PushRoom"
+                    android:textColor="@drawable/custom_radio_text_color" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/stringGendertitle"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <RadioButton
+                    android:id="@+id/rBtn_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/highlightRoom"
+                    android:checked="true"
+                    android:text="@string/stringMalePushRoom"
+                    android:textColor="@drawable/custom_radio_text_color" />
+
+                <RadioButton
+                    android:id="@+id/rBtn_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/highlightRoom"
+                    android:text="@string/stringFemalePushRoom"
+                    android:textColor="@drawable/custom_radio_text_color" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/stringNumberPushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_number_people_push_room"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_spinner_rim"
+                android:gravity="center"
+                android:hint="@string/stringNumberHelpPushRoom"
+                android:inputType="number"
+                android:textColor="#666666"
+                android:textCursorDrawable="@drawable/cursor_edittext"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/stringAreaPushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_length_push_room"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_spinner_rim"
+                android:gravity="center"
+                android:hint="@string/stringAreaHelpPushRoom"
+                android:inputType="numberDecimal|numberSigned"
+                android:textColor="#666666"
+                android:textCursorDrawable="@drawable/cursor_edittext"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/stringWidthHelpPushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_width_push_room"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_spinner_rim"
+                android:gravity="center"
+                android:hint="@string/stringAreaHelpPushRoom"
+                android:inputType="numberDecimal|numberSigned"
+                android:textColor="#666666"
+                android:textCursorDrawable="@drawable/cursor_edittext"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/stringPricePushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_priceRoom_push_room"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_spinner_rim"
+                android:gravity="center"
+                android:hint="@string/stringPriceHelpPushRoom"
+                android:inputType="numberDecimal|numberSigned"
+                android:textColor="#666666"
+                android:textCursorDrawable="@drawable/cursor_edittext"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/stringElectricPushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_electricBill_push_room"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:hint="@string/stringPriceHelpPushRoom"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:textColor="#666666"
+                    android:textCursorDrawable="@drawable/cursor_edittext"
+                    android:textSize="14sp"
+                    android:theme="@style/EditTextTheme" />
+
+                <CheckBox
+                    android:id="@+id/chBox_freeElectric_push_room"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/edt_electricBill_push_room"
+                    android:layout_weight="2"
+                    android:buttonTint="@color/highlightRoom"
+                    android:text="@string/stringFreePricePushRoom"
+                    android:textColor="@drawable/custom_radio_text_color" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/stringWaterPushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_waterBill_push_room"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:hint="@string/stringPriceHelpPushRoom"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:textColor="#666666"
+                    android:textCursorDrawable="@drawable/cursor_edittext"
+                    android:textSize="14sp"
+                    android:theme="@style/EditTextTheme" />
+
+                <CheckBox
+                    android:id="@+id/chBox_freeWater_push_room"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/edt_waterBill_push_room"
+                    android:layout_weight="2"
+                    android:buttonTint="@color/highlightRoom"
+                    android:text="@string/stringFreePricePushRoom"
+                    android:textColor="@drawable/custom_radio_text_color" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/stringInternetPushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_internet_push_room"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:hint="@string/stringPriceHelpPushRoom"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:textColor="#666666"
+                    android:textCursorDrawable="@drawable/cursor_edittext"
+                    android:textSize="14sp"
+                    android:theme="@style/EditTextTheme" />
+
+                <CheckBox
+                    android:id="@+id/chBox_freeInternet_push_room"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/edt_internet_push_room"
+                    android:layout_weight="2"
+                    android:buttonTint="@color/highlightRoom"
+                    android:text="@string/stringFreePricePushRoom"
+                    android:textColor="@drawable/custom_radio_text_color" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/stringParking2PushRoom"
+                android:textColor="#666666"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_parking_push_room"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:hint="@string/stringPriceHelpPushRoom"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:textColor="#666666"
+                    android:textCursorDrawable="@drawable/cursor_edittext"
+                    android:textSize="14sp"
+                    android:theme="@style/EditTextTheme" />
+
+                <CheckBox
+                    android:id="@+id/chBox_freeParking_push_room"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/edt_internet_push_room"
+                    android:layout_weight="2"
+                    android:buttonTint="@color/highlightRoom"
+                    android:text="@string/stringFreePricePushRoom"
+                    android:textColor="@drawable/custom_radio_text_color" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_nextStep2_post_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button_login"
+                android:text="Xác nhận"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "387373762451",
+    "project_id": "thuephongtroandroid",
+    "storage_bucket": "thuephongtroandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387373762451:android:ff8b381f8bdef0a3588a66",
+        "android_client_info": {
+          "package_name": "com.example.designapptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387373762451-np2bjdopnahhhlpt4smj0qq5qs9nc81v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh0S94UsnG1IfTYAVsBZqNfd_uXjnYC9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387373762451-np2bjdopnahhhlpt4smj0qq5qs9nc81v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

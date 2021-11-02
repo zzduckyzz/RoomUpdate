@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhile"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorGrayType2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn lí do"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:id="@+id/rad_reason_1_report_room_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nơi này có dấu hiệu lừa tiền"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rad_reason_2_report_room_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hình ảnh cung cấp khác xa hiện thực"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rad_reason_3_report_room_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Khác"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorGrayType2" />
+
+    <EditText
+        android:id="@+id/edt_detailed_reason_report_room_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:hint="Lí do chi tiết tố cáo nơi này" />
+
+</LinearLayout>

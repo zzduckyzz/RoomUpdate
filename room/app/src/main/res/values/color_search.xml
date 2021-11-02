@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhile">#ffffff</color>
+    <color name="success">#00A8FF</color>
+    <color name="unsuccess">#666666</color>
+    <color name="grayRadio">#F7F3F3</color>
+    <color name="highlightRoom">#E04086</color>
+</resources>
