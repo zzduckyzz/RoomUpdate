@@ -163,16 +163,13 @@ public class UserModel implements Parcelable {
             }
         });
     }
-
     public void getUserModel(final IFindRoomAddModel iFindRoomAddModel, final String id) {
         //Tạo listen cho firebase
         ValueEventListener valueEventListener = new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 UserModel userModel = dataSnapshot.child("Users").child(id).getValue(UserModel.class);
-                if (userModel != null) {
-                    userModel.setUserID(id);
-                }
+                userModel.setUserID(id);
                 iFindRoomAddModel.getUserModel(userModel);
             }
 
@@ -189,7 +186,7 @@ public class UserModel implements Parcelable {
     public void ListHosts(IUserModel iUserModel, int quantityHostToLoad, int quantityHostLoaded) {
         Query nodeHosts = nodeRoot.child("Users")
                 .orderByChild("owner")
-                .equalTo(true);
+                .equalTo(2);
 
         // Tạo listen cho nodeHosts.
         ValueEventListener valueEventListener = new ValueEventListener() {
@@ -267,9 +264,7 @@ public class UserModel implements Parcelable {
             //Lấy ra giá trị ép kiểu qua kiểu RoomModel
             UserModel userModel = dataSnapshotValueUser.getValue(UserModel.class);
 
-            if (userModel != null) {
-                userModel.setUserID(userID);
-            }
+            userModel.setUserID(userID);
 
             //Thêm danh sách phòng của user đăng
             List<RoomModel> listRoomModels = new ArrayList<>();
@@ -278,7 +273,7 @@ public class UserModel implements Parcelable {
 
             for (DataSnapshot valueRoom : dataSnapshotRoom.getChildren()) {
                 RoomModel roomModel = valueRoom.getValue(RoomModel.class);
-                if (roomModel != null && roomModel.getOwner().equals(userID) && roomModel.isApprove()) {
+                if(roomModel.getOwner().equals(userID) && roomModel.isApprove()) {
                     //Duyệt tất cả các giá trị trong node tương ứng
                     String RoomID = valueRoom.getKey();
 
@@ -294,16 +289,11 @@ public class UserModel implements Parcelable {
                     //Thêm tên danh sách tên hình vào phòng trọ
 
                     //Duyệt vào node RoomImages trên firebase và duyệt vào node có mã room tương ứng
-                    DataSnapshot dataSnapshotImageRoom = null;
-                    if (RoomID != null) {
-                        dataSnapshotImageRoom = dataRoot.child("RoomImages").child(RoomID);
-                    }
+                    DataSnapshot dataSnapshotImageRoom = dataRoot.child("RoomImages").child(RoomID);
                     List<String> tempImageList = new ArrayList<String>();
                     //Duyêt tất cả các giá trị của node tương ứng
-                    if (dataSnapshotImageRoom != null) {
-                        for (DataSnapshot valueImage : dataSnapshotImageRoom.getChildren()) {
-                            tempImageList.add(valueImage.getValue(String.class));
-                        }
+                    for (DataSnapshot valueImage : dataSnapshotImageRoom.getChildren()) {
+                        tempImageList.add(valueImage.getValue(String.class));
                     }
 
                     //set mảng hình vào list
@@ -312,50 +302,31 @@ public class UserModel implements Parcelable {
                     //End Thêm tên danh sách tên hình vào phòng trọ
 
                     //Thêm vào hình dung lượng thấp của phòng trọ
-                    DataSnapshot dataSnapshotComPress = null;
-                    if (RoomID != null) {
-                        dataSnapshotComPress = dataRoot.child("RoomCompressionImages").child(RoomID);
-                    }
+                    DataSnapshot dataSnapshotComPress = dataRoot.child("RoomCompressionImages").child(RoomID);
                     //Kiểm tra nếu có dữ liệu
-                    if (dataSnapshotComPress != null) {
-                        if (dataSnapshotComPress.getChildrenCount() > 0) {
-                            for (DataSnapshot valueCompressionImage : dataSnapshotComPress.getChildren()) {
-                                roomModel.setCompressionImage(valueCompressionImage.getValue(String.class));
-                            }
-                        } else {
-                            roomModel.setCompressionImage(tempImageList.get(0));
+                    if (dataSnapshotComPress.getChildrenCount() > 0) {
+                        for (DataSnapshot valueCompressionImage : dataSnapshotComPress.getChildren()) {
+                            roomModel.setCompressionImage(valueCompressionImage.getValue(String.class));
                         }
+                    } else {
+                        roomModel.setCompressionImage(tempImageList.get(0));
                     }
 
                     //Thêm danh sách bình luận của phòng trọ
 
-                    DataSnapshot dataSnapshotCommentRoom = null;
-                    if (RoomID != null) {
-                        dataSnapshotCommentRoom = dataRoot.child("RoomComments").child(RoomID);
-                    }
+                    DataSnapshot dataSnapshotCommentRoom = dataRoot.child("RoomComments").child(RoomID);
                     List<CommentModel> tempCommentList = new ArrayList<CommentModel>();
                     //Duyệt tất cả các giá trị trong node tương ứng
-                    if (dataSnapshotCommentRoom != null) {
-                        for (DataSnapshot CommentValue : dataSnapshotCommentRoom.getChildren()) {
-                            CommentModel commentModel = CommentValue.getValue(CommentModel.class);
-                            if (commentModel != null) {
-                                commentModel.setCommentID(CommentValue.getKey());
-                            }
-                            //Duyệt user tương ứng để lấy ra thông tin user bình luận
-                            UserModel tempUser = null;
-                            if (commentModel != null) {
-                                tempUser = dataRoot.child("Users").child(commentModel.getUser()).getValue(UserModel.class);
-                            }
-                            if (tempUser != null) {
-                                tempUser.setUserID(commentModel.getUser());
-                            }
-                            if (commentModel != null) {
-                                commentModel.setUserComment(tempUser);
-                            }
-                            //End duyệt user tương ứng để lấy ra thông tin user bình luận
+                    for (DataSnapshot CommentValue : dataSnapshotCommentRoom.getChildren()) {
+                        CommentModel commentModel = CommentValue.getValue(CommentModel.class);
+                        commentModel.setCommentID(CommentValue.getKey());
+                        //Duyệt user tương ứng để lấy ra thông tin user bình luận
+                        UserModel tempUser = dataRoot.child("Users").child(commentModel.getUser()).getValue(UserModel.class);
+                        tempUser.setUserID(commentModel.getUser());
+                        commentModel.setUserComment(tempUser);
+                        //End duyệt user tương ứng để lấy ra thông tin user bình luận
 
-                            tempCommentList.add(commentModel);
-                        }
+                        tempCommentList.add(commentModel);
                     }
 
                     roomModel.setListCommentRoom(tempCommentList);
@@ -429,7 +400,7 @@ public class UserModel implements Parcelable {
     }
 
     public void SumHosts(IUserModel iUserModel) {
-        Query nodeHosts = nodeRoot.child("Users").orderByChild("owner").equalTo(true);
+        Query nodeHosts = nodeRoot.child("Users").orderByChild("owner").equalTo(2);
 
         // Tạo listen cho nodeHosts.
         ValueEventListener valueEventListener = new ValueEventListener() {
@@ -449,4 +420,6 @@ public class UserModel implements Parcelable {
 
         nodeHosts.addValueEventListener(valueEventListener);
     }
+
+
 }

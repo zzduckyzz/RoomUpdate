@@ -45,6 +45,7 @@ public class PostRoomStep1Fragment extends Fragment implements AdapterView.OnIte
 
     //Biến sharedPreferences để truyền dữ liệu giữa các fragment trong viewpager
     SharedPreferences sharedpreferences;
+    SharedPreferences.Editor editor;
     //End Biến sharedPreferences để truyền dữ liệu giữa các fragment trong viewpager
 
     private Spinner spnDistrictPushRoom, spnCityPushRoom, spnWardPushRoom;
@@ -207,14 +208,13 @@ public class PostRoomStep1Fragment extends Fragment implements AdapterView.OnIte
     //Lưu thông tin địa chỉ xuống savePreference
     private void saveDataToPreference() {
         sharedpreferences = requireActivity().getSharedPreferences(PostRoomActivity.PREFS_DATA_NAME, Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor;
         editor = sharedpreferences.edit();
         editor.putString(SHARE_CITY, City);
         editor.putString(SHARE_DISTRICT, District);
         editor.putString(SHARE_NO, No);
         editor.putString(SHARE_WARD, Ward);
         editor.putString(SHARE_STREET, Street);
-        editor.apply();
+        editor.commit();
     }
 
 

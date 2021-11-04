@@ -45,9 +45,9 @@ public class MainActivityController {
 
     // khai báo các biến liên quan tới load more.
     int quantityGridMainRoomLoaded = 0;
-    int quantityGridMainRoomEachTime = 4;
+    int quantityGridMainRoomEachTime = 20;
     int quantityVerifiedRoomLoaded = 0;
-    int quantityVerifiedRoomEachTime = 4;
+    int quantityVerifiedRoomEachTime = 20;
 
     public MainActivityController(Context context, String UID) {
         this.context = context;
@@ -259,9 +259,9 @@ public class MainActivityController {
 //        final AdapterRecyclerMainRoom adapterRecyclerMainRoom = new AdapterRecyclerMainRoom(context, roomModelList, R.layout.room_element_list_view, UID);
         AdapterRecyclerMyRoom adapterRecyclerMyRoom;
         if(isAdminCall){
-             adapterRecyclerMyRoom = new AdapterRecyclerMyRoom(context, roomModelList, R.layout.item_room_admin_user);
+            adapterRecyclerMyRoom = new AdapterRecyclerMyRoom(context, roomModelList, R.layout.item_room_admin_user);
         }else {
-             adapterRecyclerMyRoom = new AdapterRecyclerMyRoom(context, roomModelList, R.layout.item_room_user);
+            adapterRecyclerMyRoom = new AdapterRecyclerMyRoom(context, roomModelList, R.layout.item_room_user);
         }
         //Cài adapter cho recycle
         recyclerMainRoom.setAdapter(adapterRecyclerMyRoom);

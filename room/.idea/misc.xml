@@ -41,7 +41,7 @@
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_reported_room_detail_view.xml" value="0.22" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_reset_password_by_email.xml" value="0.22" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_room_detail.xml" value="0.5" />
-        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_room_management_user_view.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_room_management_user_view.xml" value="0.22" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/activity_search_view.xml" value="0.11639492753623189" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/change_state_room_dialog.xml" value="0.11639492753623189" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/comment_and_rate_main_room_detail.xml" value="0.11639492753623189" />
@@ -70,7 +70,7 @@
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/fragment_fragment_price.xml" value="0.11639492753623189" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/fragment_fragment_type_room.xml" value="0.22" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/grid_element_find_room_detail.xml" value="0.11639492753623189" />
-        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/item_room_admin_user.xml" value="0.67" />
+        <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/item_room_admin_user.xml" value="0.25" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/item_room_user.xml" value="0.25" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/load_image_element_recycler_view.xml" value="0.11639492753623189" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/layout/my_room_outside_view.xml" value="0.11639492753623189" />
