@@ -56,15 +56,8 @@ public class RoomModel implements Parcelable { // Linh thêm
     boolean gender;
     boolean approve;
     String apartmentNumber, county, street, ward, city;
-
-
-    //id để generate từ firebase
     String typeID;
-
-    //String để lấy giá trị từ ID
     String roomType;
-
-    //String để lưu link hình ảnh dung lượng thấp của phòng
     String compressionImage;
 
     //Đánh giá của người xem trọ
@@ -776,12 +769,12 @@ public class RoomModel implements Parcelable { // Linh thêm
                         //Thêm vào node RoomLocation để filter
 
                         //Cắt bỏ P. trước phường
-                        String SplitWarn = roomModel.getWard() != null ? roomModel.getWard() : "Đang cập nhật";
-                        //Push ID room vào
-//                        nodeRoot.child("LocationRoom").child(roomModel.getCounty())
-//                                .child(SplitWarn)
-//                                .child(roomModel.getStreet())
-//                                .push().setValue(RoomID);
+                        String SplitWarn = roomModel.getWard().substring(2);
+
+                        nodeRoot.child("LocationRoom").child(roomModel.getCounty())
+                                .child(SplitWarn)
+                                .child(roomModel.getStreet())
+                                .push().setValue(RoomID);
 
                         //End thêm vào node RoomLocation để filter
 
