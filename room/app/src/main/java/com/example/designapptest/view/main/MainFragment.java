@@ -144,10 +144,10 @@ public class MainFragment extends Fragment {
     }
     private List<PhotoModel> getListPhoto(){
         List<PhotoModel> list = new ArrayList<>();
-        list.add(new PhotoModel(R.drawable.avt_q_1));
-        list.add(new PhotoModel(R.drawable.avt_q_12));
-        list.add(new PhotoModel(R.drawable.avt_q_11));
-        list.add(new PhotoModel(R.drawable.avt_q_10));
+        list.add(new PhotoModel(R.drawable.pink1));
+        list.add(new PhotoModel(R.drawable.pink2));
+        list.add(new PhotoModel(R.drawable.pink3));
+        list.add(new PhotoModel(R.drawable.pink4));
         return list;
     }
 
