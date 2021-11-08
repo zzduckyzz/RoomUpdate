@@ -33,7 +33,7 @@ public class ReportedRoomController {
     Context context;
 
     int quantityReportRoomLoaded = 0;
-    int quantityReportRoomEachTime = 5;
+    int quantityReportRoomEachTime = 20;
 
     public ReportedRoomController(Context context) {
         this.context = context;

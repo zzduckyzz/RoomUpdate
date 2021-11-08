@@ -27,7 +27,7 @@ public class PopUpViewsController {
 
     // khai báo các biến liên quan tới load more.
     int quantityViewLoaded = 0;
-    int quantityViewEachTime = 4;
+    int quantityViewEachTime = 20;
 
     public PopUpViewsController(Context context) {
         this.context = context;

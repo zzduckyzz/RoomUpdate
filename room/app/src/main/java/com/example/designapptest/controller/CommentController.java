@@ -35,7 +35,7 @@ public class CommentController {
 
     // khai báo các biến liên quan tới load more.
     int quantityCommentsLoaded = 0;
-    int quantityCommentsEachTime = 4;
+    int quantityCommentsEachTime = 20;
 
     public CommentController(Context context, String UID) {
         this.context = context;

@@ -73,4 +73,5 @@ dependencies {
     //Thư viện float button menu
     implementation 'com.getbase:floatingactionbutton:1.10.1'
     implementation 'br.com.simplepass:loading-button-android:1.14.0'
+    implementation 'me.relex:circleindicator:2.1.4'
 }

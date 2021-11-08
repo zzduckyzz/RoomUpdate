@@ -25,7 +25,7 @@ public class UserController {
     UserModel userModel;
 
     int quantityHostLoaded = 0;
-    int quantityHostEachTime = 5;
+    int quantityHostEachTime = 20;
 
     public UserController(Context context) {
         this.context = context;

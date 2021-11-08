@@ -27,7 +27,7 @@ public class FindRoomController {
 
     // khai báo các biến liên quan tới load more.
     int quantityFindRoomLoaded = 0;
-    int quantityFindRoomEachTime = 5;
+    int quantityFindRoomEachTime = 20;
 
     public FindRoomController(Context context) {
         this.context = context;

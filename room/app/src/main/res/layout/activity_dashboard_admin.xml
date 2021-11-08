@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#81A9C8"
+    android:background="@drawable/bg_jpg_banner"
     android:orientation="vertical">
 
     <ScrollView
@@ -20,7 +20,7 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:text="Welcome Admin"
-                android:textColor="@color/ic_launcher_background"
+                android:textColor="@color/highlightRoom"
                 android:textSize="25dp"
                 android:textStyle="bold" />
 

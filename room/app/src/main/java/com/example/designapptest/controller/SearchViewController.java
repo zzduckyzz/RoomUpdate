@@ -30,7 +30,7 @@ public class SearchViewController {
 
     // khai báo các biến liên quan tới load more.
     int quantityRoomsLoaded = 0;
-    int quantityRoomsEachTime = 4;
+    int quantityRoomsEachTime = 20;
 
     public SearchViewController(Context context, String district, List<myFilter> filterList, String UID) {
         this.context = context;

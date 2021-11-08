@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/drawable/custom_profile.xml" value="0.1" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.18" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/activity_main__menu.xml" value="0.10916919959473151" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/item_photo.xml" value="0.17" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/item_room_admin_user.xml" value="0.10916919959473151" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/item_room_user.xml" value="0.10916919959473151" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/load_image_element_recycler_view.xml" value="0.10916919959473151" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/my_room_outside_view.xml" value="0.10916919959473151" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/cursor_edittext.xml" value="0.215625" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_button_call_room_detail.xml" value="0.215625" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_button_check_map_detail.xml" value="0.215625" />

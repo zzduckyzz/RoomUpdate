@@ -8,8 +8,14 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
+
+import com.example.designapptest.adapter.AdapterPhoto;
+import com.example.designapptest.model.PhotoModel;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,6 +29,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.widget.NestedScrollView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager.widget.ViewPager;
 
 import com.example.designapptest.R;
 import com.example.designapptest.controller.MainActivityController;
@@ -32,6 +39,13 @@ import com.example.designapptest.view.room.VerifiedRoomsViewActivity;
 import com.example.designapptest.view.searchandmap.LocationSearchActivity;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import me.relex.circleindicator.CircleIndicator;
 
 public class MainFragment extends Fragment {
 
@@ -62,6 +76,11 @@ public class MainFragment extends Fragment {
     CollapsingToolbarLayout collapsingToolbarLayout;
 
     FloatingActionButton btnFabSearch;
+    ViewPager viewPager;
+    CircleIndicator circleIndicator;
+    AdapterPhoto photoAdapter;
+    List<PhotoModel> mListPhoto;
+    Timer mTimer;
 
     //Layout
     View layout;
@@ -84,11 +103,19 @@ public class MainFragment extends Fragment {
         initControl();
         clickSearchRoom();
         clickLoadMoreVerifiedRooms();
+        autoSlideImages();
 
         return layout;
     }
 
     private void initControl() {
+        viewPager = layout.findViewById(R.id.viewpager);
+        circleIndicator=layout.findViewById(R.id.circle_indicator);
+        mListPhoto = getListPhoto();
+        photoAdapter = new AdapterPhoto(this, mListPhoto);
+        viewPager.setAdapter(photoAdapter);
+        circleIndicator.setViewPager(viewPager);
+        photoAdapter.registerDataSetObserver(circleIndicator.getDataSetObserver());
         grVLocation = layout.findViewById(R.id.grV_location);
 
         edTSearch = layout.findViewById(R.id.edT_search);
@@ -114,6 +141,41 @@ public class MainFragment extends Fragment {
                 startActivity(intentSearchLocation);
             }
         });
+    }
+    private List<PhotoModel> getListPhoto(){
+        List<PhotoModel> list = new ArrayList<>();
+        list.add(new PhotoModel(R.drawable.avt_q_1));
+        list.add(new PhotoModel(R.drawable.avt_q_12));
+        list.add(new PhotoModel(R.drawable.avt_q_11));
+        list.add(new PhotoModel(R.drawable.avt_q_10));
+        return list;
+    }
+
+    private void autoSlideImages(){
+        if(mListPhoto == null || mListPhoto.isEmpty() || viewPager == null){
+            return;
+        }
+        if(mTimer == null){
+            mTimer = new Timer();
+        }
+        mTimer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                new Handler(Looper.getMainLooper()).post(new Runnable() {
+                    @Override
+                    public void run() {
+                        int currentItem = viewPager.getCurrentItem();
+                        int totalItem = mListPhoto.size() -1;
+                        if(currentItem < totalItem){
+                            currentItem++;
+                            viewPager.setCurrentItem(currentItem);
+                        }else {
+                            viewPager.setCurrentItem(0);
+                        }
+                    }
+                });
+            }
+        },500,3000);
     }
 
     private void setView() {
