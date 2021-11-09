@@ -31,15 +31,6 @@
         <activity android:name=".view.main.MainMenuActivity" />
 
         <meta-data
-            android:name="com.here.android.maps.appid"
-            android:value="OnLd2Tn4jMkFhbXYvVm2" />
-        <meta-data
-            android:name="com.here.android.maps.apptoken"
-            android:value="Gxv3RlV6iyGmoFriTniE5A" />
-        <meta-data
-            android:name="com.here.android.maps.license.key"
-            android:value="AGRy8MKqkLOaYW/ctM/O6hoe4fJnROU/gCrEBOIcrHE/ZCLKwGZdaVwB8pfZjY92qZYna+na+SdGstZvNYT1yq/pORWDG9TmCSz8Tg8XPTKNpkUzJNiYKYerLP8z2pKdmvJQN1jidBYNaN+vTJLL8/nPfqeGZofmqbT9j3qA0jJZogFoUfZ1YoEmDKg7U5D6ShPCBACpvJgc1RUNnkCqipBSQm1DalAYhvD2i4W2s+AQDc8y5sP9EuPtpTrSQgFhHZnAwFcsMYB4O940iSCidfTdm1cOs0h8OgDKq00ZL/0fDlmc8JK+EvTYH4epILRbKL2uiG9b75+QH1N/afdQeUF16uTphrefdQ2c1VOufpps5Ko1Fg1cIIjaJOlHYNCzmtuGSXPD7ZsjvVjRZC1i6NFs532ASC3F5PN9JgKM7T5tVz9eIyhJnHufsZr9qJW739kVqral0q8nwik+SCIkqt4FO39WfaLhBjuMFMMFHuBbEYoemBOjONVLNN0e/hVhpGN/MSkSVN3d+4/NgtkLGDR5SD1a2XIb7z8JuHaW7qg/mexsAeDLYjoU8+ILBJIJ0N1blSxPaNNdyvDCpp3Q4vtGkDXO/c384Lha+A5mAQyC747Ue3z9X/ZgXVIYj4iPvFpZJdUXC4+oZeHOpNm2ING234nQ8PxkOHCyuR1bMF8=" />
-        <meta-data
             android:name="INTENT_NAME"
             android:value="com.example.designapptest" />
 
