@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_CreateAt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="right"
+                    android:text="2021-11-11 at 19:57:43 GMT+07:00"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_nameBookRoom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="3dp"
+                android:maxLines="2"
+                android:text="Cho thuê phòng trọ giá rẻ"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/txtUName"
+                    android:layout_width="wrap_content"
+                    android:text="Tran Ngoc Sang"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/txtUPhone"
+                    android:layout_width="wrap_content"
+                    android:text="090988866"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/txtUName"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_RentalCost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:text="2.5 triệu / phòng"
+                    android:textColor="#E91E63"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_toRightOf="@id/txt_RentalCost"
+                    android:layout_marginLeft="20px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_phone"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="5dp"
+                android:maxLines="2"
+                android:text="127 An Dương Vương, Bình Tân, TP Hồ Chí Minh"
+                android:textColor="#2E2D2D"
+                android:textSize="12sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="14sp"
+                    android:text="Hồ Chí minh"
+                    android:textColor="#B88A01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_City"
+                    />
+                <TextView
+                    android:textSize="14sp"
+                    android:text="Quan 1"
+                    android:layout_toRightOf="@id/txt_City"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#B88A01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_Country"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textSize="14sp"
+                    android:text="Hồ Chí minh"
+                    android:textColor="#B88A01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_Ward"
+                    />
+                <TextView
+                    android:textSize="14sp"
+                    android:text="Quan 1"
+                    android:layout_toRightOf="@id/txt_Ward"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#B88A01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_Street"
+                    />
+                <TextView
+                    android:textSize="14sp"
+                    android:text="Quan 1"
+                    android:layout_toRightOf="@id/txt_Ward"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#B88A01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_no"></TextView>
+            </RelativeLayout>
+            <TextView
+                android:text="Đợi duyệt..."
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_Status"
+                />
+            <RelativeLayout
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <Button
+                    android:id="@+id/btn_CancelBookRoom"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/custom_button_accept"
+                    android:text="Hủy đặt"
+                    android:layout_marginLeft="100px"
+                    />
+                <Button
+                    android:id="@+id/btn_okBook"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/custom_button_refuse"
+                    android:text="Duyệt"
+                    android:layout_marginLeft="100px"
+                    android:layout_toRightOf="@id/btn_CancelBookRoom"
+                    />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

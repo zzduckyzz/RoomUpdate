@@ -10,7 +10,6 @@ import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 
 //https://stackoverflow.com/questions/45520599/creating-file-from-uri
-
 public class FilePath {
 
     /**

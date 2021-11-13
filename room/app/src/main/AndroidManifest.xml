@@ -23,6 +23,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".view.room.RequestBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.room.ListBookRoomActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.popup.PopUpActivity"
             android:theme="@style/AppTheme.PopMe" />
         <activity
@@ -33,8 +39,6 @@
         <meta-data
             android:name="INTENT_NAME"
             android:value="com.example.designapptest" />
-
-
 
         <activity
             android:name=".view.searchandmap.LocationSearchActivity"
@@ -55,20 +59,19 @@
         <activity android:name=".view.room.VerifiedRoomsViewActivity" />
         <activity android:name=".view.room.PostRoomActivity" />
         <activity android:name=".view.postroom.PostRoomAdapterUpdateActivity" />
-
         <activity
             android:name=".view.login.LoginActivity"
             android:exported="true"
             android:theme="@style/AppTheme1.NoActionBar">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.register.RegisterActivity"
-            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity
+            android:name=".view.register.RegisterActivity"
+            android:theme="@style/AppTheme1.NoActionBar" />
         <activity android:name=".view.room.FindRoomAddActivity" />
         <activity android:name=".view.room.FindRoomDetailActivity" />
         <activity android:name=".view.room.FindRoomFilterActivity" />
@@ -82,9 +85,9 @@
         <activity android:name=".view.admin.AdminRoomsWaitForApprovalActivity" />
         <activity android:name=".view.admin.AdminReportRoomActivity" />
         <activity android:name=".view.admin.AdminReportRoomDetailActivity" />
-        <activity android:name=".view.main.FindRoomMine"></activity>
-        <activity android:name=".view.room.FindRoomAdd"></activity>
-        <activity android:name=".view.room.FindRoomFilter"></activity>
+        <activity android:name=".view.main.FindRoomMine" />
+        <activity android:name=".view.room.FindRoomAdd" />
+        <activity android:name=".view.room.FindRoomFilter" />
     </application>
 
 </manifest>

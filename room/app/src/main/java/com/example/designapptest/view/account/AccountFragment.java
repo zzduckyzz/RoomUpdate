@@ -14,6 +14,8 @@ import androidx.fragment.app.Fragment;
 import com.example.designapptest.R;
 import com.example.designapptest.view.main.FindRoomMine;
 import com.example.designapptest.view.room.FavoriteRoomsActivity;
+import com.example.designapptest.view.room.ListBookRoomActivity;
+import com.example.designapptest.view.room.RequestBookActivity;
 import com.example.designapptest.view.room.RoomManageActivity;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -25,7 +27,8 @@ public class AccountFragment extends Fragment implements View.OnClickListener {
     private Button btnLogout;
     private Button btnSupport;
     private Button btnMyFindRoom;
-
+    private Button btnHistoryOrder;
+    private Button btnRequestBook;
     FirebaseAuth firebaseAuth;
 
     //View để liên kết
@@ -54,6 +57,8 @@ public class AccountFragment extends Fragment implements View.OnClickListener {
         btnLogout = layout.findViewById(R.id.btn_logout);
         btnSupport = layout.findViewById(R.id.btn_contact_support);
         btnMyFindRoom = layout.findViewById(R.id.btn_my_find_room);
+        btnHistoryOrder = layout.findViewById(R.id.btn_historyOrder);
+        btnRequestBook = layout.findViewById(R.id.btn_RequestBook);
         btnMyFindRoom.setOnClickListener(this);
 
         btnMyRoom.setOnClickListener(this);
@@ -61,6 +66,8 @@ public class AccountFragment extends Fragment implements View.OnClickListener {
         btnSupport.setOnClickListener(this);
         btnEditAccount.setOnClickListener(this);
         btnMyFavoriteRoom.setOnClickListener(this);
+        btnHistoryOrder.setOnClickListener(this);
+        btnRequestBook.setOnClickListener(this);
     }
 
     @Override
@@ -86,7 +93,18 @@ public class AccountFragment extends Fragment implements View.OnClickListener {
                 break;
 
             case R.id.btn_contact_support: {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://zalo.me/0966419464"));
+                Uri number = Uri.parse("tel:0966419464");
+                Intent browserIntent = new Intent(Intent.ACTION_DIAL, number);
+                startActivity(browserIntent);
+                break;
+            }
+            case R.id.btn_historyOrder:{
+                Intent browserIntent =  new Intent(getContext(), ListBookRoomActivity.class);
+                startActivity(browserIntent);
+                break;
+            }
+            case R.id.btn_RequestBook:{
+                Intent browserIntent =  new Intent(getContext(), RequestBookActivity.class);
                 startActivity(browserIntent);
                 break;
             }

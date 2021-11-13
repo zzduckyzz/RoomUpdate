@@ -177,6 +177,7 @@
                 android:orientation="vertical">
 
 
+                <!--Processbar-->
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recycler_Main_Room"
                     android:layout_width="match_parent"
@@ -184,7 +185,6 @@
                     android:layout_alignParentBottom="true"
                     android:gravity="center" />
 
-                <!--Processbar-->
                 <ProgressBar
                     android:id="@+id/progress_bar_load_more_my_rooms"
                     android:layout_width="wrap_content"

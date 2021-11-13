@@ -596,23 +596,106 @@
                         android:background="@color/colorGrayType2" />
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    android:paddingBottom="15dp">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="5dp"
                         android:orientation="horizontal">
 
-                        <Button
-                            android:id="@+id/btn_callPhone"
-                            android:layout_width="200dp"
-                            android:layout_height="30dp"
-                            android:layout_gravity="center"
-                            android:background="@drawable/custom_button_call_room_detail"
-                            android:text="@string/stringCallBookRoom"
-                            android:textAllCaps="false"
-                            android:textColor="@android:color/white"
-                            android:textSize="14sp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <Button
+                                android:id="@+id/btn_callPhone"
+                                android:layout_width="120dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/custom_button_call_room_detail"
+                                android:text="Gọi ngay"
+                                android:textAllCaps="false"
+                                android:textColor="@android:color/white"
+                                android:textSize="14sp"
+                                android:layout_weight="1"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <Button
+                                android:id="@+id/btn_bookRom"
+                                android:layout_width="120dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/custom_button_call_room_detail"
+                                android:text="Đặt phòng"
+                                android:textAllCaps="false"
+                                android:textColor="@android:color/white"
+                                android:textSize="14sp"
+                                android:layout_weight="1"/>
+
+
+                        </LinearLayout>
+
+
+
                     </LinearLayout>
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:layout_weight="1">-->
+
+<!--                        <Button-->
+<!--                            android:id="@+id/btn_callPhone"-->
+<!--                            android:layout_width="120dp"-->
+<!--                            android:layout_height="30dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/custom_button_call_room_detail"-->
+<!--                            android:text="Gọi ngay"-->
+<!--                            android:textAllCaps="false"-->
+<!--                            android:textColor="@android:color/white"-->
+<!--                            android:textSize="14sp" -->
+<!--                            android:layout_weight="1"/>-->
+<!--                    </LinearLayout>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:layout_weight="1">-->
+
+<!--                        <Button-->
+<!--                            android:id="@+id/btn_bookRom"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@drawable/custom_button_call_room_detail"-->
+<!--                            android:text="Đặt phòng"-->
+<!--                            android:textAllCaps="false"-->
+<!--                            android:textColor="@android:color/white"-->
+<!--                            android:textSize="14sp"-->
+<!--                            android:layout_weight="1"/>-->
+<!--                    </LinearLayout>-->
+
 
                 </LinearLayout>
 
@@ -1034,7 +1117,7 @@
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-
+            </LinearLayout>
         </androidx.core.widget.NestedScrollView>
     </RelativeLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

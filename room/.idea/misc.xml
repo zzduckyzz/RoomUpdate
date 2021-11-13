@@ -3,6 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.17300724637681159" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_list_book_room.xml" value="0.15534420289855072" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_login.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_main.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_main__menu.xml" value="0.17300724637681159" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_personal_page_view.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_pop_up_comment.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_pop_up_views.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_register.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_reported_room_detail_view.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_request_book.xml" value="0.15677083333333333" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_reset_password_by_email.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_room_detail.xml" value="0.15534420289855072" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_room_management_user_view.xml" value="0.18206521739130435" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/activity_search_view.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/dialog_show_image_detail_room.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/element_book_room.xml" value="0.15534420289855072" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/element_view_recycler_view.xml" value="0.15534420289855072" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/fragment_account_view.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/rom_element_grid_view.xml" value="0.15534420289855072" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/room_element_list_view.xml" value="0.15534420289855072" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/suggest_element_list_view.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/toolbar.xml" value="0.17300724637681159" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/upload_image_element_recycler_view.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/utility_element_grid_room_detail_view.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/verified_rooms_view.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android/A/RoomUpdate/room/app/src/main/res/layout/verify_dialog.xml" value="0.12760416666666666" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/drawable/custom_profile.xml" value="0.1" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/drawable/frame.xml" value="0.1" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.18" />
@@ -13,6 +40,17 @@
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/item_room_user.xml" value="0.10916919959473151" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/load_image_element_recycler_view.xml" value="0.10916919959473151" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/my_room_outside_view.xml" value="0.10916919959473151" />
+        <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/drawable/custom_button_accept.xml" value="0.23692307692307693" />
+        <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/drawable/custom_button_call_room_detail.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/drawable/custom_button_login.xml" value="0.240625" />
+        <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/drawable/custom_button_refuse.xml" value="0.23692307692307693" />
+        <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/layout/activity_list_book_room.xml" value="0.182518115942029" />
+        <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/layout/activity_login.xml" value="0.5838414634146342" />
+        <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/layout/activity_request_book.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/layout/activity_room_detail.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/layout/element_book_room.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/layout/fragment_account_view.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/layout/my_room_outside_view.xml" value="0.182518115942029" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/cursor_edittext.xml" value="0.215625" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_button_call_room_detail.xml" value="0.215625" />
         <entry key="..\:/Users/Admin/Desktop/room/app/src/main/res/drawable/custom_button_check_map_detail.xml" value="0.215625" />

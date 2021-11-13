@@ -127,6 +127,56 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
                 android:background="#FFFFFF"
+                android:src="@mipmap/shop" />
+
+            <Button
+                android:id="@+id/btn_historyOrder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="left|center"
+                android:paddingLeft="7dp"
+                android:text="Lịch Sử đặt phòng"
+                android:textAllCaps="false"
+                android:textColor="#666666" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:background="#FFFFFF"
+                android:src="@drawable/ic_png_room_color_100" />
+
+            <Button
+                android:id="@+id/btn_RequestBook"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="left|center"
+                android:paddingLeft="10dp"
+                android:text="Yêu cầu đặt phòng"
+                android:textAllCaps="false"
+                android:textColor="#666666" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:background="#FFFFFF"
                 android:src="@drawable/ic_flash" />
 
             <Button
@@ -136,11 +186,10 @@
                 android:background="#FFFFFF"
                 android:gravity="left|center"
                 android:paddingLeft="7dp"
-                android:text="Liên hệ admin bằng zalo"
+                android:text="Liên hệ admin"
                 android:textAllCaps="false"
                 android:textColor="#666666" />
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"

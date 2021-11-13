@@ -23,6 +23,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.widget.NestedScrollView;
@@ -44,19 +45,27 @@ import com.example.designapptest.domain.GenderFilter;
 import com.example.designapptest.domain.TypeFilter;
 import com.example.designapptest.domain.classFunctionStatic;
 import com.example.designapptest.domain.myFilter;
+import com.example.designapptest.model.BookRoomModel;
 import com.example.designapptest.model.CommentModel;
 import com.example.designapptest.model.ReportedRoomModel;
 import com.example.designapptest.model.RoomModel;
 import com.example.designapptest.model.RoomViewsModel;
 import com.example.designapptest.view.commentandrate.CommentAndRateMainActivity;
 import com.example.designapptest.view.login.LoginActivity;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 import com.squareup.picasso.Picasso;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
+import java.util.Random;
 
 public class DetailRoomActivity extends AppCompatActivity implements ReportRoomDialogFragment.ReportRoomDialogListener {
     TextView txtRoomType, txtRoomMaxNumber, txtQuantityComment, txtRoomName,
@@ -65,7 +74,7 @@ public class DetailRoomActivity extends AppCompatActivity implements ReportRoomD
             txtQuantityComment_2, txtRoomPhoneNumber, txtExpandConvenients, txtExpandDescription,
             txtCapacityCramped, txtCapacityMedium, txtCapacitySpacious;
 
-    Button btnCallPhone, btnPostComment, btnViewAll;
+    Button btnCallPhone, btnPostComment, btnViewAll, btnBookRom;
 
     ImageView imgRoomGender, imgRoom1, imgRoom2, imgRoom3, imgRoom4, imgFavorite;
 
@@ -121,6 +130,8 @@ public class DetailRoomActivity extends AppCompatActivity implements ReportRoomD
 
     String District;
     String CurrentRoomID;
+    String NU = "";
+    String PU = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -134,7 +145,8 @@ public class DetailRoomActivity extends AppCompatActivity implements ReportRoomD
         sharedPreferences = getSharedPreferences(LoginActivity.PREFS_DATA_NAME, MODE_PRIVATE);
         UID = sharedPreferences.getString(LoginActivity.SHARE_UID, "n1oc76JrhkMB9bxKxwXrxJld3qH2");
         userRole = sharedPreferences.getInt(LoginActivity.USER_ROLE, 1);
-
+        NU = sharedPreferences.getString(LoginActivity.NameUser, "");
+        PU =  sharedPreferences.getString(LoginActivity.PhoneUser, "");
         initControl();
         loadProgress();
         setMoreImageForLastCard();
@@ -259,12 +271,55 @@ public class DetailRoomActivity extends AppCompatActivity implements ReportRoomD
         btnCallPhone = (Button) findViewById(R.id.btn_callPhone);
         btnPostComment = (Button) findViewById(R.id.btn_postComment);
         btnViewAll = (Button) findViewById(R.id.btn_viewAll);
+        btnBookRom = (Button) findViewById(R.id.btn_bookRom);
 
         imgRoomGender = (ImageView) findViewById(R.id.img_roomGender);
         imgRoom1 = (ImageView) findViewById(R.id.img_room1);
         imgRoom2 = (ImageView) findViewById(R.id.img_room2);
         imgRoom3 = (ImageView) findViewById(R.id.img_room3);
         imgRoom4 = (ImageView) findViewById(R.id.img_room4);
+
+
+        btnBookRom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Random ran = new Random();
+                int x = ran.nextInt(100) + 5;
+                SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MM-dd 'at' HH:mm:ss z");
+                Date date = new Date(System.currentTimeMillis());
+                String df = formatter.format(date);
+                DatabaseReference nodeBookRoom = FirebaseDatabase.getInstance().getReference().child("BookRoom");
+                String bookID = nodeBookRoom.child(UID+roomModel.getRoomID()).getKey();
+                BookRoomModel bookRoomModel = new BookRoomModel(
+                        bookID,
+                        UID,
+                        roomModel.getRoomID(),
+                        "1",
+                        df,
+                        roomModel.getName(),
+                        roomModel.getCity(),
+                        roomModel.getCounty(),
+                        roomModel.getDescribe(),
+                        roomModel.getStreet(),
+                        roomModel.getWard(),
+                        String.valueOf(roomModel.getRentalCosts()),
+                        roomModel.getRoomOwner().getPhoneNumber().toString(),
+                        roomModel.getRoomOwner().getUserID().toString(),NU,PU
+                );
+                nodeBookRoom.child(bookID).setValue(bookRoomModel).addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        if (task.isSuccessful()) {
+                            System.out.println("thanh cong");
+                        }
+                    }
+                });
+
+
+                Intent intent = new Intent(DetailRoomActivity.this, ListBookRoomActivity.class);
+                startActivity(intent);
+            }
+        });
 
         //imgFavorite = (ImageView) findViewById(R.id.img_favorite);
 
@@ -441,6 +496,7 @@ public class DetailRoomActivity extends AppCompatActivity implements ReportRoomD
         txtCapacityMedium.setText(medium + " người");
         txtCapacityCramped.setText(cramped + " người");
     }
+
 
     private void expandRoomDescription() {
         txtRoomDescription.post(new Runnable() {

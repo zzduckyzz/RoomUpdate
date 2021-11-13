@@ -36,7 +36,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public static final String SHARE_UID = "currentUserId";
     public static final String USER_ROLE = "userRole";
     public static final String PREFS_DATA_NAME = "currentUserId";
-
+    public static final String NameUser = "NameUser";
+    public static final String PhoneUser = "PhoneUser";
     private Button btn_signUp;
     private Button btn_login;
     private EditText edt_username_login;
@@ -110,6 +111,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             firebaseAuth.signInWithEmailAndPassword(username, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
+                    System.out.println(task);
                     if (!task.isSuccessful()) {
                         progressDialog.dismiss();
                         Toast.makeText(LoginActivity.this, "Tên đăng nhập hoặc mật khẩu không đúng", Toast.LENGTH_SHORT).show();
@@ -161,7 +163,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 }
                 if (userModel != null) {
                     int owner = userModel.getOwner();
-
+                    editor.putString(NameUser, userModel.getName());
+                    editor.putString(PhoneUser, userModel.getPhoneNumber());
                     if (1 == owner) {
                         editor.putInt(USER_ROLE, 1);
                         editor.apply();

@@ -62,7 +62,6 @@ public class MainMenuActivity extends AppCompatActivity {
                     FindRoomView = new FindRoom();
                     setFragment(FindRoomView);
                     return true;
-
                 case R.id.nav_post_room:
                     if (2 == userRole) {    //role chu phong tro
                         //Hiển thị màn hình đăng phòng mới
