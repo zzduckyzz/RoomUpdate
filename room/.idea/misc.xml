@@ -33,8 +33,12 @@
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/drawable/custom_profile.xml" value="0.1" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/drawable/frame.xml" value="0.1" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.18" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/activity_list_book_room.xml" value="0.11503623188405797" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/activity_main__menu.xml" value="0.10916919959473151" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/activity_request_book.xml" value="0.1213768115942029" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/activity_room_management_user_view.xml" value="0.23540315106580167" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/element_book_room.xml" value="0.33" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/item_photo.xml" value="0.17" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/item_room_admin_user.xml" value="0.10916919959473151" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/item_room_user.xml" value="0.10916919959473151" />

@@ -1,6 +1,7 @@
 package com.example.designapptest.view.account;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,6 +13,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.designapptest.R;
+import com.example.designapptest.view.login.LoginActivity;
 import com.example.designapptest.view.main.FindRoomMine;
 import com.example.designapptest.view.room.FavoriteRoomsActivity;
 import com.example.designapptest.view.room.ListBookRoomActivity;
@@ -20,6 +22,7 @@ import com.example.designapptest.view.room.RoomManageActivity;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class AccountFragment extends Fragment implements View.OnClickListener {
+
 
     private Button btnEditAccount;
     private Button btnMyRoom;
@@ -30,15 +33,15 @@ public class AccountFragment extends Fragment implements View.OnClickListener {
     private Button btnHistoryOrder;
     private Button btnRequestBook;
     FirebaseAuth firebaseAuth;
-
     //View để liên kết
     View layout;
-
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
     }
+
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

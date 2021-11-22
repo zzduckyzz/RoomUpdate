@@ -24,9 +24,11 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".view.room.RequestBookActivity"
+            android:parentActivityName=".view.main.MainMenuActivity"
             android:exported="false" />
         <activity
             android:name=".view.room.ListBookRoomActivity"
+            android:parentActivityName=".view.main.MainMenuActivity"
             android:exported="false" />
         <activity
             android:name=".view.popup.PopUpActivity"

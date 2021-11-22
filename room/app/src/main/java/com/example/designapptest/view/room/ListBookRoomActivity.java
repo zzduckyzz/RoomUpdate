@@ -2,6 +2,8 @@ package com.example.designapptest.view.room;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import com.example.designapptest.R;
 import com.example.designapptest.adapter.AdapterBookRoom;
 import com.example.designapptest.model.BookRoomModel;
@@ -28,6 +30,7 @@ public class ListBookRoomActivity extends AppCompatActivity {
     List<BookRoomModel> bookRoomModelList = new ArrayList<>();
     SharedPreferences sharedPreferences;
     AdapterBookRoom adapterBookRoom;
+    Toolbar toolbar;
     String UID;
     int userRole;
     @Override
@@ -53,6 +56,13 @@ public class ListBookRoomActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_book_room);
+        toolbar = findViewById(R.id.toolbar);
+        if (toolbar != null) {
+            setSupportActionBar(toolbar);
+            getSupportActionBar().setTitle("Lịch sử đặt phòng");
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+        }
 
         sharedPreferences = getSharedPreferences(LoginActivity.PREFS_DATA_NAME, MODE_PRIVATE);
         UID = sharedPreferences.getString(LoginActivity.SHARE_UID, "n1oc76JrhkMB9bxKxwXrxJld3qH2");

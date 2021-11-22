@@ -6,7 +6,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="210dp"
+        android:layout_height="280dp"
         android:orientation="horizontal"
         tools:ignore="MissingConstraints">
 
@@ -139,7 +139,7 @@
                     />
                 <TextView
                     android:textSize="14sp"
-                    android:text="Quan 1"
+                    android:text="Hồ Chí Minh"
                     android:layout_toRightOf="@id/txt_Ward"
                     android:layout_marginLeft="10dp"
                     android:textColor="#B88A01"
@@ -149,7 +149,7 @@
                     />
                 <TextView
                     android:textSize="14sp"
-                    android:text="Quan 1"
+                    android:text="Hồ Chí Minh"
                     android:layout_toRightOf="@id/txt_Ward"
                     android:layout_marginLeft="10dp"
                     android:textColor="#B88A01"
@@ -172,17 +172,19 @@
 
 
                 <Button
+                    android:layout_marginTop="10dp"
                     android:id="@+id/btn_CancelBookRoom"
                     android:layout_width="120dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="40dp"
                     android:background="@drawable/custom_button_accept"
                     android:text="Hủy đặt"
                     android:layout_marginLeft="100px"
                     />
                 <Button
+                    android:layout_marginTop="10dp"
                     android:id="@+id/btn_okBook"
                     android:layout_width="120dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="40dp"
                     android:background="@drawable/custom_button_refuse"
                     android:text="Duyệt"
                     android:layout_marginLeft="100px"
