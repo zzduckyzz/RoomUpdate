@@ -44,6 +44,11 @@
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/item_room_user.xml" value="0.10916919959473151" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/load_image_element_recycler_view.xml" value="0.10916919959473151" />
         <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/my_room_outside_view.xml" value="0.10916919959473151" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/toolbar.xml" value="0.16666666666666666" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/upload_image_element_recycler_view.xml" value="0.16666666666666666" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/utility_element_grid_room_detail_view.xml" value="0.16666666666666666" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/verified_rooms_view.xml" value="0.25" />
+        <entry key="..\:/Project/RoomUpdate/room/app/src/main/res/layout/verify_dialog.xml" value="0.25" />
         <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/drawable/custom_button_accept.xml" value="0.23692307692307693" />
         <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/drawable/custom_button_call_room_detail.xml" value="0.1" />
         <entry key="..\:/Users/Admin/Desktop/RoomUpdate/room/app/src/main/res/drawable/custom_button_login.xml" value="0.240625" />
