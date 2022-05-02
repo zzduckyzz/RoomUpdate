@@ -27,3 +27,4 @@ Before you continue, ensure you meet the following requirements:
 * When upload image postroom 3: please choose image in folder download, something wrong when choosing another folder
 * Book Room when searching not running, please add to favorite room and book them 
 
+wating for update... 
